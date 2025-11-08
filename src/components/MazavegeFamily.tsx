@@ -210,8 +210,8 @@ export default function MazavegeFamily() {
                     className="inline-block w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold text-center"
                   >
                     {t({
-                      JP: 'Apply',
-                      EN: 'Apply'
+                      JP: '今日参加する',
+                      EN: 'JOIN US TODAY'
                     })}
                   </a>
                 </div>
