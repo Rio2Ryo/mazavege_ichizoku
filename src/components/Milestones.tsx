@@ -84,13 +84,25 @@ export default function Milestones() {
                   <p className="text-gray-300">10%</p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold text-white mb-2">
+                  <p className="text-red-500 text-sm p-2">
                     {t({
-                      JP: '紹介手数料',
-                      EN: 'Referral Fee'
+                      JP: '下記フォームにご記入いただくと、担当者よりご連絡し、次のステップをご案内します。',
+                      EN: 'Please complete the form below, and our team will reach out to guide you through the next steps.'
                     })}
-                  </h4>
-                  <p className="text-gray-300">50 USD</p>
+                  </p>
+                </div>
+                <div className="flex justify-center pt-0.5">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfYzxq_OU7f2hNBtAB6iG3CFOkc-OKY9cFW8c0ZTpixkzE1PA/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold text-center"
+                  >
+                    {t({
+                      JP: 'Mazavege Partner Form',
+                      EN: 'Mazavege Partner Form'
+                    })}
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,6 +168,7 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">10%</p>
                 </div>
+              
                 <div>
                   <h4 className="text-lg font-semibold text-white mb-2">
                     {t({
@@ -164,6 +177,19 @@ export default function Milestones() {
                     })}
                   </h4>
                   <p className="text-gray-300">50 USD</p>
+                </div>
+                <div className="flex justify-center">
+                  <a
+                    href="https://mothervegetable.com/dealer/registration"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold text-center"
+                  >
+                    {t({
+                      JP: '今日参加する',
+                      EN: 'JOIN US TODAY'
+                    })}
+                  </a>
                 </div>
               </div>
             </div>

@@ -203,12 +203,17 @@ export default function MazavegeFamily() {
                   </p>
                 </div>
                 <div className="md:flex-shrink-0">
-                  <button className="w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold">
+                  <a
+                    href="https://mothervegetable.com/dealer/registration"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full md:w-auto px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-lg transition-all duration-300 font-semibold text-center"
+                  >
                     {t({
                       JP: 'Apply',
                       EN: 'Apply'
                     })}
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
