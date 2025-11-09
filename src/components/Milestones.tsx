@@ -41,8 +41,8 @@ export default function Milestones() {
                   </h4>
                   <p className="text-gray-300">
                     {t({
-                      JP: '暗号通貨で10,000 USD以上',
-                      EN: '10,000 USD or more in cryptocurrency'
+                      JP: 'MVTで10,000 USD以上',
+                      EN: '10,000 USD or more in the MVT'
                     })}
                   </p>
                 </div>
